@@ -1,0 +1,284 @@
+body{
+    background-color: rgb(34,34,34);
+    color: aliceblue;
+}
+/* header */
+.head{
+    background-color: black;
+    position: fixed; 
+    height: 60px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 48% 48% auto;
+    align-items: center;
+    border-bottom: 1px solid rgb(5, 176, 5);
+}
+
+.menu-icon{
+    height: 12px;
+    width: 24px;
+}
+/* side bare */
+.button{
+  border: 0;
+  background-color: black;
+}
+.side{
+   background-color:  rgb(55, 51, 51);
+   border-right:  1px solid rgb(5, 176, 5);
+   color: aliceblue;
+   line-height: 38px;
+}
+.form-control{
+   background-color: rgb(96, 92, 92);
+   color: aliceblue;
+}
+.form-control:hover{
+    background-color: rgb(119, 106, 106) ;
+}
+.Close{
+   color: aliceblue;
+}
+.logo{
+    height: 34px;
+    width: 34px;
+}
+.shopin-icon{
+    height:25px ;
+    width:auto ;
+}
+.empty{
+    width: 100%;
+    height: 60px;
+}
+.top{
+    background-color: rgb(85,85,85);
+    height: auto;
+    text-align: center;
+    font-size: 13.5px;
+    line-height: 14px;
+    padding-bottom: 4px;
+}
+/* large image */
+.first{
+    height: 75vh; 
+    background-image: url(./image/1st.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    font-size: 4.5vh;
+    line-height: 9vh;
+    font-weight: 300;
+}
+.go{
+    color:  rgb(5, 176, 5);
+}
+.text1{
+
+    
+    font-size: 3.5vh; 
+    display: flex;
+    justify-content: center; 
+}
+
+.link:hover{
+   text-decoration: underline;
+   color: aliceblue;
+}
+.second{
+    height: 75vh; 
+    background-image: url(./image/2nd.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 4.5vh;
+    
+    font-weight: 300;
+}
+.third{
+    height: 75vh; 
+    background-image: url(./image/3rd.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 4.5vh;
+    font-weight: 300;
+}
+
+.sub{
+    display: grid;
+    grid-template-columns: 49.5% 49.5%;
+    margin-top: 2vh;
+    row-gap: 2vh;
+    column-gap: 2vh;
+ 
+ }
+
+ .s1{
+    width: 100%;
+    height:  100vh; 
+    background-image: url(./image/s1.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    line-height: 7vh;
+    font-weight: 300;
+ }
+ .s2{
+    width: 100%;
+    height:  100vh; 
+    background-image: url(./image/s2.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    line-height: 7vh;
+    font-weight: 300;
+ }
+ .s3{
+    width: 100%;
+    height:  100vh; 
+    background-image: url(./image/s3.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    line-height: 7vh;
+    font-weight: 300;
+ }
+ .s4{
+    width: 100%;
+    height:  100vh; 
+    background-image: url(./image/s4.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    line-height: 7vh;
+    font-weight: 300;
+ }
+ .s5{
+    width: 100%;
+    height:   100vh; 
+    background-image: url(./image/s5.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    line-height: 7vh;
+    font-weight: 300;
+ }
+ .s6{
+    width: 100%;
+    height:  100vh; 
+    background-image: url(./image/s6.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    line-height: 7vh;
+    font-weight: 300; 
+ }
+
+
+  /* footer */
+  .footer{
+    margin-top: 2vh;
+    background-color: rgb(23, 22, 22);
+    height: auto;
+    line-height: 5px;
+    border-bottom: 40px solid  rgb(23, 22, 22);
+    
+ }
+ .icons{
+    height: 27px;
+    width: 27px;
+  
+ }
+ .content{
+    color: gray;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 5% 15% auto;
+    font-size: 12px;
+    position: relative;
+    top: 5vh;
+    margin-left: 5vh;
+ }
+ .FOR-GAMERS{
+    color: rgb(5, 176, 5);
+    font-size: 15px;
+ }
+ .heada{
+    color: aliceblue;
+    font-size: 11px;
+ }
+ .final{
+    
+    border-top: 1px solid gray;
+    margin-top: 1vh;
+    background-color: rgb(21, 21, 21);
+   
+    height: 20vh;
+   
+ }
+ .final div{
+    width: 94%;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    height: 20vh;
+    margin-left: 4vh;
+    color: gray;
+    column-gap: 5.5vh;
+ }
+.list{
+   background-color: rgb(21, 21, 21);
+   font-size: 14px;
+   color: rgb(251, 251, 251);
+}
+.list:hover{
+   background-color: rgb(56, 54, 54);
+}
+.small{
+   background-color: rgb(21, 21, 21);
+   border: 20px solid rgb(21, 21, 21) ;
+   display: none;
+   
+}
+
+@media  (max-width:710px) 
+ {
+
+   .sub{
+       display: grid;
+       grid-template-columns:100%;
+       margin-top: 2vh;
+       row-gap: 2vh;
+       column-gap: 2vh;
+    
+    }
+
+    .footer{
+      display: none;
+    }
+    .small{
+      display: block;
+    }
+    
+      
+   }
+   @media  (max-width:986px) {
+
+      .a{
+         line-height: 20px;
+       }     
+
+   }
+
+   
